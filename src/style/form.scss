@@ -1,0 +1,108 @@
+.embed-submit-field {
+    position: relative;
+    input {
+      width: 100%;
+      padding: 15px;
+    }
+    p {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border-radius: 3px solid rgba(255, 0, 0, 0);
+      border-radius: 5px;
+      color: #000;
+      transition: all .2s;
+      padding:4px 6px;
+      &:hover {
+        background-color: #168830;
+        cursor: pointer;
+      }
+    }
+}
+
+.modal{
+   background-color: rgba(0, 0, 0, 0.5);
+}
+  
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 1000px;
+        margin: 1.75rem auto;
+  }
+}
+
+.modal-footer{
+  display: inline;
+}
+
+
+.role{
+  background-color: rgb(189, 189, 189);
+  border-radius: 5px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  padding:10px;
+  .add{
+    color: green;
+    &:hover {
+      border-radius: 3px solid rgba(255, 0, 0, 0);
+      border-radius: 5px;
+      color: #fff;
+      transition: all .2s;
+      background-color: #47c965;
+      cursor: pointer;
+    }
+  }
+  .remove{
+    color: red;
+    &:hover {
+      border-radius: 3px solid rgba(255, 0, 0, 0);
+      border-radius: 5px;
+      color: #fff;
+      transition: all .2s;
+      background-color: rgb(223, 67, 67);
+      cursor: pointer;
+    }
+  }
+  p {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  h4{
+    text-align: center;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .addRule{
+    background-color: rgb(36, 158, 36);
+  }
+  .removeRule{
+    background-color: rgb(196, 36, 36);
+  }
+}
+
+.formRevenue{
+  .headerText{
+    font-weight: 400;
+    font-size: 20px;  
+  }
+  
+}
+
+.modal-body {
+  padding:30px
+}
+
+.inline{
+  display: flex;
+  p{
+    margin: 5px
+  }
+}
